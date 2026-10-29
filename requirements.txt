@@ -1,0 +1,10 @@
+# The DGX environment already provides the CUDA-enabled PyTorch build; do not replace it here.
+numpy
+scipy
+scikit-learn
+matplotlib
+einops
+torchvision
+mamba-ssm
+# Optional Mamba CUDA acceleration; select a build matching the installed mamba-ssm/PyTorch/CUDA.
+# causal-conv1d
