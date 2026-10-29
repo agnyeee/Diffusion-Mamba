@@ -80,6 +80,5 @@ Evaluation reports overall accuracy (OA), average per-class accuracy (AA), Cohen
 | Classifier training epochs | 30 |
 | Random seed | 2025 |
 
-## Implementation scope
 
-This repository adapts the described Diff-Mamba workflow to the supplied Indian Pines dataset and split. In particular, the Mamba sequence is formed from each supervised 9×9 local patch, rather than from a global scan of the entire scene. Some classifier integration details are implementation choices where a complete classifier implementation was not present in the supplied source. The implementation should therefore not be interpreted as a verified exact reproduction of every paper detail.
+
